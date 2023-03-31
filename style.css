@@ -1,0 +1,23 @@
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 100%;
+}
+
+.heading button {
+    float:right;
+    border: 1px solid white;
+}
+
+.heading h3 {
+    display: inline;
+}
+
+.big_picture { 
+    width: 100%;
+
+}
+
+#start, #status {
+    font-size: 22px;
+ }
