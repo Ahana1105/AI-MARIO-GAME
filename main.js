@@ -14,7 +14,7 @@ function setup() {
 	video.parent('game_console')
 
 	poseNet = ml5.poseNet(video, modelLoaded);
-	poseNet.on('pose', gotPoses())
+	poseNet.on('pose', gotPoses);
 }
 
 function draw() {
